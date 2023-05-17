@@ -7,6 +7,7 @@ module.exports = {
       .then((thoughts) => res.json(thoughts))
       .catch((err) => res.status(500).json(err));
   },
+
   // Get single thought
   getSingleThought(req, res) {
     Thought.findOne({ _id: req.params.thoughtId })
@@ -17,4 +18,14 @@ module.exports = {
           : res.json(thought)
       )
       .catch((err) => res.status(500).json(err));
+  },
+  
+  // Create a thought
+  createThought(req, res) {
+    Thought.create(req.body)
+      .then((thought) => res.json(thought))
+      .catch((err) => {
+        console.log(err);
+        return res.status(500).json(err);
+      })
   },

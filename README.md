@@ -1,20 +1,20 @@
 # social-network-API
+
 Walkthrough link video: https://drive.google.com/file/d/1FC1Xz1uvoXdP5BdLthM_4c3JAXSpiVbC/view
 
 ## Description
 
-A Text editor application that runs in the browser. It is a single page app that meets the PWA criteria.
+An API for a social network web application where users can share their thoughts, react to friends' thoughts and create a friend list.
 
 This was a challenge given by our bootcamp instructors
 
 ## Instalation
 
-To install this code, simply click on the url to my repository [https://github.com/steevensalony/text-editor] and clone the ssh key to your local machine. 
-this is also the link to the website https://gentle-brushlands-09588.herokuapp.com/
+To install this code, simply click on the url to my repository [https://github.com/steevensalony/social-network-API] and clone the ssh key to your local machine. 
 
 ## Usage
 
-The main use of this application is have a single-page application that meets the PWA criteria. Aditionally it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+The main use of this was to create an API for a social network that uses a NoSQL database, so the website can handle large amounts of unstructured data. This API allows users on a social networking web application to share their thoughts, react ot friends' thoughts and even create a friend list
 
 ## Credits
 
